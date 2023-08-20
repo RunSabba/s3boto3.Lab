@@ -1,3 +1,5 @@
+#Project on S3 CRUD (create,read,update,delete) operations using Boto3
+
 import boto3
 
 #set up the Variables for s3 bucket creation
