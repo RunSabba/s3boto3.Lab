@@ -6,7 +6,7 @@ import boto3
 s3 = boto3.resource('s3')
 bucket_name = ()
 
-#Check if bucket exists
+#Creating list and condition to check if bucket name already exists in account before creation.
 #Create bucket if it does NOT exist
 all_my_buckets = [bucket.name for bucket in s3.buckets.all()]
 if bucket_name not in all_my_buckets:
