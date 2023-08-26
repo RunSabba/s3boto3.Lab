@@ -2,7 +2,7 @@
 
 import boto3
 
-#set up the Variables for s3 bucket creation
+#set up the Variables for s3 bucket creation using the Resource method.
 s3 = boto3.resource('s3')
 bucket_name = ()
 
